@@ -5,3 +5,4 @@ public/
 !.github/
 !.gitsubmodules
 *.sh
+.hugo_build.lock
