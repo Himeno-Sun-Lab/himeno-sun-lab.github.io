@@ -1,0 +1,7 @@
+.DS_Store
+resources/
+public/
+!.gitignore
+!.github/
+!.gitsubmodules
+*.sh
