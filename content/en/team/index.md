@@ -20,14 +20,22 @@ showPagination: false
 ## Students
 ### Doctoral Students
 - **Jie MAO**
+- **Shibo WU**
+- **Tong LIANG**
+- **Yunyu HUANG**
+- **Quan YI**
 
 ### Master Students
 - **Hana NISHIMOTO**
 - **Ziqing CHANG**
 - **Yiqi LIU**
-- **Yi YU**
+- **Yi YOU**
 - **Haoxiang BAO**
 - **Minghao WANG**
+- **Fujia WU**
+- **Shengxin WU**
+- **Bowen LIU**
+- **Haoran LIU**
 
 ### Exchange Students
 - [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
