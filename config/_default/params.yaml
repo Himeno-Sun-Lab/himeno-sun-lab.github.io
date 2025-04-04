@@ -21,9 +21,9 @@ mainSections:
 disableImageOptimization: false
 disableTextInHeader: false
 
-# backgroundImageWidth: 1200
-# defaultBackgroundImage: "IMAGE.jpg" # used as default for background images 
-# defaultFeaturedImage: "IMAGE.jpg" # used as default for featured images in all articles
+backgroundImageWidth: 1200
+defaultBackgroundImage: "background.png" # used as default for background images 
+defaultFeaturedImage: "background.png" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea: true
 # smartTOC: true
@@ -43,7 +43,7 @@ footer:
   showScrollToTop: true
 
 homepage:
-  layout: "hero"
+  layout: "background"
   homepageImage: "background.png"
   showRecent: true
   showRecentItems: 5

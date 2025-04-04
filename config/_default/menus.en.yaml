@@ -37,6 +37,9 @@ main:
     pageRef: "contact"
     weight: 50
   
+  - name: "People"
+    pageRef: "member"
+    weight: 100
 #  - name: "Categories"
 #    pageRef: "categories"
 #    weight: 20
