@@ -4,6 +4,7 @@ date: 2025-04-11
 authors: 
   - Wangminghao
   - Changziqing
+tags: ['Event']
 ---
 We had a party to welcome our newcomers, who will start their new research career in Himeno-Sun Lab.
 
