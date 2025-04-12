@@ -36,6 +36,7 @@ showPagination: false
 - **Shengxin WU**
 - **Bowen LIU**
 - **Haoran LIU**
+- **Aidi LIU**
 
 ### Exchange Students
 - [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
