@@ -1,5 +1,8 @@
 {
   "name": "Chao LI",
   "image": "Lichao.png",
-  "bio": "*This is for bio.*"
+  "bio": "*Research Scientist*",
+  "links": [
+    { "link": "https://chaoliatriken.github.io/" }
+  ]
 }

@@ -1,5 +1,8 @@
 {
   "name": "Binghua LI",
   "image": "Libinghua.png",
-  "bio": "*This is for bio.*"
+  "bio": "*This is for bio.*",
+  "links": [
+    { "link": "https://tuat-novice.github.io/vhua.github.io/"}
+  ]
 }
