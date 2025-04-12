@@ -2,6 +2,7 @@
 title: Congratulations to Our Graduates, Jie MAO and Xunyang ZHANG.
 date: 2025-03-14
 authors:
+  - Sunzhe
   - Wangminghao
 tags: ['News']
 ---
