@@ -3,6 +3,7 @@ title: Congratulations to Our Graduates, Jie MAO and Xunyang ZHANG.
 date: 2025-03-14
 authors:
   - Wangminghao
+tags: ['News']
 ---
 On March 14, 2025, the graduate school commencement ceremony was held at the Ogawa Auditorium.
 
