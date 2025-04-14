@@ -8,6 +8,12 @@ showReadingTime: false
 showBreadcrumbs: false
 showPagination: false
 ---
+
+{{< figure
+    src="members.png"
+    alt="Member Photo"
+    >}}
+
 ## Principal Investigators
 - **Zhe SUN**
 - **Ryutaro HIMENO**
@@ -27,16 +33,21 @@ showPagination: false
 
 ### Master Students
 - **Hana NISHIMOTO**
+- **Yu KONISHI**
+- **Tianxiang Lyu**
 - **Ziqing CHANG**
 - **Yiqi LIU**
 - **Yi YOU**
 - **Haoxiang BAO**
 - **Minghao WANG**
+- **Taikei ISHII**
+- **Tomonao ISHII**
 - **Fujia WU**
 - **Shengxin WU**
 - **Bowen LIU**
 - **Haoran LIU**
 - **Aidi LIU**
+- **Zheng QU**
 
 ### Exchange Students
 - [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
@@ -44,6 +55,7 @@ showPagination: false
 - **Haoran LI** <kbd>Nankai University</kbd>
 - **Boren BAI** <kbd>Nankai University</kbd>
 - **Jingjing ZHANG** <kbd>Nankai University</kbd>
+- **Judith Urbina Cordoba** <kbd>University of Barcelona</kbd>
 
 ## Alumni
 - **Kai SUZUKI**
