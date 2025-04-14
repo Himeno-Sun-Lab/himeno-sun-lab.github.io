@@ -1,5 +1,6 @@
 ---
 title: Himeno Benchmark
+showReadingTime: false
 showPagination: false
 showDate: false
 authors:
