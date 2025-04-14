@@ -74,9 +74,9 @@ article:
   showHeadingAnchors: false
   showPagination: true
   invertPagination: false
-  showReadingTime: false
+  showReadingTime: true
   showTableOfContents: true
-  showTaxonomies: false
+  showTaxonomies: true
   showAuthorsBadges: false
   showWordCount: false
   showZenMode: false
@@ -102,8 +102,9 @@ list:
   showViews: false
   showLikes: false
   showTableOfContents: false
-  # showRelatedContent: false
-  # relatedContentLimit: 3
+  showRelatedContent: true
+  relatedContentLimit: 3
+  showTaxonomies: true
   showCards: true
   orderByWeight: false
   groupByYear: true
