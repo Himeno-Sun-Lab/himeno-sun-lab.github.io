@@ -34,7 +34,7 @@ showPagination: false
 ### Master Students
 - **Hana NISHIMOTO**
 - **Yu KONISHI**
-- **Tianxiang Lyu**
+- **Tianxiang LYU**
 - **Ziqing CHANG**
 - **Yiqi LIU**
 - **Yi YOU**
