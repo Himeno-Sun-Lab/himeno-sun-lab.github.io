@@ -33,9 +33,9 @@ main:
     pageRef: "team"
     weight: 25
 
-  - name: "Contact"
-    pageRef: "contact"
-    weight: 50
+  # - name: "Contact"
+  #   pageRef: "contact"
+  #   weight: 50
 
 #  - name: "Categories"
 #    pageRef: "categories"
