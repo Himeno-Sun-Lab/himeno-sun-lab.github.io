@@ -42,6 +42,7 @@ showPagination: false
 - **Minghao WANG**
 - **Taikei ISHII**
 - **Tomonao ISHII**
+- **Yuchen CONG**
 - **Fujia WU**
 - **Shengxin WU**
 - **Bowen LIU**
