@@ -7,7 +7,7 @@ authors:
   - himeno
 ---
 ## Introduction to Himeno Benchmark
-Prof. Ryutaro Himeno, former Director of the Advanced Center for Computing and Communication, has developed this benchmark to evaluate performance of incompressible fluid analysis code. This benchmark program takes measurements to proceed major loops in solving the Poisson’s equation solution using the Jacobi iteration method.
+Prof. Ryutaro Himeno, former Director of the Advanced Center for Computing and Communication of RIKEN, has developed this benchmark to evaluate performance of incompressible fluid analysis code. This benchmark program takes measurements to proceed major loops in solving the Poisson’s equation solution using the Jacobi iteration method.
 
 Being the code very simple and easy to compile and to execute, users can measure actual speed (in MFLOPS) immediately.
  
