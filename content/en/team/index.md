@@ -25,6 +25,7 @@ showPagination: false
 
 ## Students
 ### Doctoral Students
+- **Tomonao ISHII**
 - **Jie MAO**
 - **Shibo WU**
 - **Tong LIANG**
@@ -41,7 +42,6 @@ showPagination: false
 - **Haoxiang BAO**
 - **Minghao WANG**
 - **Taikei ISHII**
-- **Tomonao ISHII**
 - **Yuchen CONG**
 - **Fujia WU**
 - **Shengxin WU**
