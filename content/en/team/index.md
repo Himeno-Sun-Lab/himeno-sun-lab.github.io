@@ -49,6 +49,7 @@ showPagination: false
 - **Haoran LIU**
 - **Aidi LIU**
 - **Zheng QU**
+- **Zhurui WANG**
 
 ### Exchange Students
 - [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
