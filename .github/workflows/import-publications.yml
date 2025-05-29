@@ -44,7 +44,6 @@ jobs:
           body: |
             Import the latest publications from `publications.bib` to `content/publications/`.
           base: main
-          labels: automated-pr, content
           branch: import-publications
           delete-branch: true
       - name: Check outputs
