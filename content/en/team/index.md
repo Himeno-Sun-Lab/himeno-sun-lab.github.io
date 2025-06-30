@@ -21,7 +21,7 @@ showPagination: false
 ## Researchers
 - [Chao LI](https://chaoliatriken.github.io/) <kbd>[RIKEN AIP](https://qibinzhao.github.io/)</kbd>
 - **Xiaowei GU** <kbd>[RIKEN CBS](https://jlab.brain.riken.jp/)</kbd>
-- [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
+- [Binghua LI](https://xiaovhua.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
 
 ## Students
 ### Doctoral Students
