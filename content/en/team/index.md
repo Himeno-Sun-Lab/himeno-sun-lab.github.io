@@ -52,7 +52,7 @@ showPagination: false
 - **Zhurui WANG**
 
 ### Exchange Students
-- [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
+- [Binghua LI](https://xiaovhua.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
 - **Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
 - **Haoran LI** <kbd>Nankai University</kbd>
 - **Boren BAI** <kbd>Nankai University</kbd>
