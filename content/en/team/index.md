@@ -15,8 +15,8 @@ showPagination: false
     >}}
 
 ## Principal Investigators
-- **Zhe SUN**
 - **Ryutaro HIMENO**
+- **Zhe SUN**
 
 ## Researchers
 - [Chao LI](https://chaoliatriken.github.io/) <kbd>[RIKEN AIP](https://qibinzhao.github.io/)</kbd>
@@ -51,15 +51,19 @@ showPagination: false
 - **Zheng QU**
 - **Zhurui WANG**
 
+### Co-supervising Student
+**Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
+
 ### Exchange Students
-- [Binghua LI](https://xiaovhua.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
-- **Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
-- **Haoran LI** <kbd>Nankai University</kbd>
+- [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
 - **Boren BAI** <kbd>Nankai University</kbd>
 - **Jingjing ZHANG** <kbd>Nankai University</kbd>
-- **Judith Urbina Cordoba** <kbd>University of Barcelona</kbd>
+- **Disen Hu** <kbd>UESTC</kbd>
 
 ## Alumni
+- **Haoran LI**
+- **Judith Urbina Cordoba**
+- **Hana NISHIMOTO**
 - **Kai SUZUKI**
 - **Xunyang ZHANG**
 - **Chong ZU**
