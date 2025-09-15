@@ -33,7 +33,6 @@ showPagination: false
 - **Quan YI**
 
 ### Master Students
-- **Hana NISHIMOTO**
 - **Yu KONISHI**
 - **Tianxiang LYU**
 - **Ziqing CHANG**
