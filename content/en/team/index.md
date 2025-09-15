@@ -52,7 +52,7 @@ showPagination: false
 - **Zhurui WANG**
 
 ### Co-supervising Student
-**Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
+- **Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
 
 ### Exchange Students
 - [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
