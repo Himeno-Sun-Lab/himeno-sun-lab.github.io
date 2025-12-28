@@ -55,8 +55,8 @@ showPagination: false
 
 ### Exchange Students
 - **Disen Hu** <kbd>UESTC</kbd>
-- **Qiange Zhu** <kbd></kbd>
-- **Xingpu Quan**
+- **Qiange Zhu** <kbd>XJTU</kbd>
+- **Xingpu Quan** <kbd>XJTU</kbd>
 - **Mireia Santamaria** <kbd>Universitat Politècnica de Catalunya</kbd>
 
 ## Alumni
