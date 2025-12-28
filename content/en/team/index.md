@@ -54,12 +54,14 @@ showPagination: false
 - **Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
 
 ### Exchange Students
-- [Binghua LI](https://tuat-novice.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
-- **Boren BAI** <kbd>Nankai University</kbd>
-- **Jingjing ZHANG** <kbd>Nankai University</kbd>
 - **Disen Hu** <kbd>UESTC</kbd>
+- **Qiange Zhu** <kbd></kbd>
+- **Xingpu Quan**
+- **Mireia Santamaria** <kbd>Universitat Politècnica de Catalunya</kbd>
 
 ## Alumni
+- **Boren BAI**
+- **Jingjing ZHANG**
 - **Haoran LI**
 - **Judith Urbina Cordoba**
 - **Hana NISHIMOTO**
