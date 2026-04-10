@@ -20,8 +20,9 @@ showPagination: false
 
 ## Researchers
 - [Chao LI](https://chaoliatriken.github.io/) <kbd>[RIKEN AIP](https://qibinzhao.github.io/)</kbd>
-- **Xiaowei GU** <kbd>[RIKEN CBS](https://jlab.brain.riken.jp/)</kbd>
-- [Binghua LI](https://xiaovhua.github.io/vhua.github.io/) <kbd>[TUAT](https://www.sip.tuat.ac.jp/)</kbd>
+- **Xiaowei GU** <kbd>[SUSTech]</kbd>
+- [Binghua LI](https://xiaovhua.github.io/vhua.github.io/)
+- Wenjian DING
 
 ## Students
 ### Doctoral Students
@@ -31,15 +32,16 @@ showPagination: false
 - **Tong LIANG**
 - **Yunyu HUANG**
 - **Quan YI**
+- **Jianyi WANG**
+- **Meng ZHOU**
+- **Ziqing CHANG**
+- **Minghao WANG**
+- **Pengyu XIANG**
+- **Haoxiang BAO**
+- **Jianing ZHANG**
+- **Xulin DENG**
 
 ### Master Students
-- **Yu KONISHI**
-- **Tianxiang LYU**
-- **Ziqing CHANG**
-- **Yiqi LIU**
-- **Yi YOU**
-- **Haoxiang BAO**
-- **Minghao WANG**
 - **Taikei ISHII**
 - **Yuchen CONG**
 - **Fujia WU**
@@ -49,17 +51,23 @@ showPagination: false
 - **Aidi LIU**
 - **Zheng QU**
 - **Zhurui WANG**
+- **Mitsuo KAMIMURA**
+- **Bojin HU**
 
 ### Co-supervising Student
-- **Siqi GAO** <kbd>[CUHK](https://labsmrt.github.io/)</kbd>
+- **Siqi GAO** <kbd>[CUHK]</kbd>
 
 ### Exchange Students
 - **Disen Hu** <kbd>UESTC</kbd>
 - **Qiange Zhu** <kbd>XJTU</kbd>
 - **Xingpu Quan** <kbd>XJTU</kbd>
-- **Mireia Santamaria** <kbd>Universitat Politècnica de Catalunya</kbd>
 
 ## Alumni
+- **Yiqi LIU**
+- **Yi YOU**
+- **Tianxiang LYU**
+- **Yu KONISHI**
+- **Mireia Santamaria**
 - **Boren BAI**
 - **Jingjing ZHANG**
 - **Haoran LI**
