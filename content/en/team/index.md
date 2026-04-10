@@ -20,7 +20,7 @@ showPagination: false
 
 ## Researchers
 - [Chao LI](https://chaoliatriken.github.io/) <kbd>[RIKEN AIP](https://qibinzhao.github.io/)</kbd>
-- **Xiaowei GU** <kbd>[SUSTech]</kbd>
+- **Xiaowei GU** <kbd>SUSTech</kbd>
 - [Binghua LI](https://xiaovhua.github.io/vhua.github.io/)
 - Wenjian DING
 
