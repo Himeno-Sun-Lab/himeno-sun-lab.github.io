@@ -1,10 +1,12 @@
 ---
 title: Prof. Himeno Research Introduction
 date: 2026-05-19
-summary: An overview of Prof. Ryutaro Himeno's research profile, selected research topics, and related activities at Himeno-Sun Lab.
+summary: A friendly introduction to Prof. Himeno's research on fall-risk assessment for older adults, sports motion analysis, and blood-flow simulation.
 tags: ['Research']
 ---
-This PDF introduces Prof. Ryutaro Himeno's research profile and selected research topics. It provides an overview of his work in simulation science, high-performance computing, fluid dynamics, gait measurement, and related computational research activities at Himeno-Sun Lab.
+In this PDF, I introduce some of the research topics I have been working on with my colleagues and students. Our research focuses on understanding human movement and biological flow through measurement, analysis, and simulation.
+
+The introduction includes our work on fall-risk assessment for older adults, motion analysis in sports, and fluid simulation of blood flow. I hope it gives you a clear and accessible overview of the questions we are interested in and the approaches we use at Himeno-Sun Lab.
 
 You can preview the PDF below or download it directly.
 
