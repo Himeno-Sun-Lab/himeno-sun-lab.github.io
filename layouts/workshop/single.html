@@ -1,0 +1,334 @@
+{{- $workshop := site.Data.workshop2026 -}}
+{{- $hero := .Resources.GetMatch "feature.*" -}}
+{{- $css := resources.Get "css/workshop.css" | resources.Minify | resources.Fingerprint "sha512" -}}
+{{- $js := resources.Get "js/workshop.js" | resources.Minify | resources.Fingerprint "sha512" -}}
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Description | default .Summary }}">
+    <title>{{ $workshop.title }} | {{ site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta property="og:title" content="{{ $workshop.title }}">
+    <meta property="og:description" content="{{ .Description | default .Summary }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{ with $hero }}<meta property="og:image" content="{{ .Permalink }}">{{ end }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="#overview" aria-label="{{ $workshop.title }}">
+          <span class="brand-mark">DB</span>
+          <span class="brand-text">Digital Brain Workshop</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Workshop navigation" data-site-nav>
+          {{ range $workshop.navigation }}
+            <a href="{{ .href }}">{{ .label }}</a>
+          {{ end }}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      {{ with $workshop.notice }}
+        <div class="notice-bar" role="alert">
+          <div class="container notice-inner">
+            {{ with .title }}<strong>{{ . }}</strong>{{ end }}
+            <span>{{ .text }}</span>
+          </div>
+        </div>
+      {{ end }}
+      <section class="hero" id="overview" aria-label="Workshop overview">
+        {{ with $hero }}
+          <img class="hero-image" src="{{ .RelPermalink }}" alt="">
+        {{ end }}
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="hero-kicker">{{ $workshop.subtitle }}</p>
+          <h1>{{ $workshop.title }}</h1>
+          <p class="hero-copy">
+            {{ index $workshop.intro 0 }}
+          </p>
+          <div class="hero-meta" aria-label="Core workshop information">
+            <span>{{ $workshop.dateRange }}</span>
+            <span>{{ $workshop.venueShort }}</span>
+            <span>{{ $workshop.fee }}</span>
+          </div>
+          {{ with $workshop.heroCtaLabel }}
+            <div class="hero-actions">
+              <a class="btn-primary btn-on-hero" href="#registration">{{ . }}</a>
+            </div>
+          {{ end }}
+        </div>
+      </section>
+
+      <section class="section section-white" aria-labelledby="announcement-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Announcement</span>
+            <h2 id="announcement-heading">International Workshop on Digital Brain Research</h2>
+          </div>
+          <div class="announcement-panel">
+            {{ range $workshop.intro }}
+              <p>{{ . }}</p>
+            {{ end }}
+          </div>
+
+          <div class="fact-grid" aria-label="Workshop facts">
+            {{ range $workshop.facts }}
+              <article class="fact-card">
+                <span>{{ .label }}</span>
+                <strong>{{ .value }}</strong>
+                <p>{{ .note }}</p>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" aria-labelledby="overview-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Overview</span>
+            <h2 id="overview-heading">Scope and Participants</h2>
+          </div>
+          <div class="overview-grid">
+            {{ range $workshop.overviewCards }}
+              <article class="overview-card">
+                <h3>{{ .title }}</h3>
+                <p>{{ .text }}</p>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white" id="topics" aria-labelledby="topics-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Main Topics</span>
+            <h2 id="topics-heading">Research Themes and Workshop Modules</h2>
+          </div>
+          <div class="topic-list" aria-label="Main topics">
+            {{ range $workshop.topics }}
+              <span>{{ . }}</span>
+            {{ end }}
+          </div>
+          <div class="module-grid">
+            {{ range $workshop.modules }}
+              <article class="module-card module-{{ .type }}">
+                <h3>{{ .title }}</h3>
+                <p>{{ .text }}</p>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="speakers" aria-labelledby="speakers-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Speakers and Instructors</span>
+            <h2 id="speakers-heading">Invited Speakers and Instructors</h2>
+          </div>
+          <p class="section-intro">Tentative speaker and instructor list.</p>
+          <div class="speaker-grid">
+            {{ range $workshop.speakers }}
+              <article class="speaker-card">
+                <div class="speaker-topline">
+                  <span class="speaker-role">{{ .role }}</span>
+                  <span class="speaker-location">{{ .location }}</span>
+                </div>
+                <h3>{{ .name }}</h3>
+                <p>{{ .affiliation }}</p>
+                {{ if .link }}
+                  <a class="card-link" href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .linkLabel | default "Profile" }} &rarr;</a>
+                {{ end }}
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white" id="program" aria-labelledby="program-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Tentative Program</span>
+            <h2 id="program-heading">Three-Day Schedule</h2>
+          </div>
+          <div class="program-legend" aria-label="Program color legend">
+            {{ range $workshop.programLegend }}
+              <span class="legend-item legend-{{ .type }}">{{ .label }}</span>
+            {{ end }}
+          </div>
+
+          <div class="program-grid">
+            {{ range $workshop.program }}
+              <article class="day-card">
+                <div class="day-heading">
+                  <span>{{ .day }}</span>
+                  <h3>{{ .date }}</h3>
+                </div>
+                <div class="session-list">
+                  {{ range .sessions }}
+                    <div class="session-item session-{{ .type }}">
+                      <time>{{ .time }}</time>
+                      <div class="session-body">
+                        <h4>{{ .title }}</h4>
+                        {{ with .speaker }}<p class="session-speaker">{{ . }}</p>{{ end }}
+                        {{ with .note }}<p class="session-note">{{ . }}</p>{{ end }}
+                      </div>
+                    </div>
+                  {{ end }}
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="registration" aria-labelledby="registration-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Registration and Fees</span>
+            <h2 id="registration-heading">Registration</h2>
+          </div>
+          {{ with $workshop.registration }}
+            <div class="registration-panel">
+              <div class="registration-status">
+                <span class="status-badge">{{ .status }}</span>
+                {{ with .deadline }}<span class="status-deadline">Deadline: {{ . }}</span>{{ end }}
+              </div>
+              <h3>{{ .headline }}</h3>
+              <p>{{ .note }}</p>
+              {{ with .ctaEmail }}
+                <a class="btn-primary" href="mailto:{{ . }}?subject={{ $workshop.registration.ctaSubject | urlquery }}">{{ $workshop.registration.ctaLabel }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+          <div class="fee-grid">
+            {{ range $workshop.fees }}
+              <article class="fee-card">
+                <h3>{{ .title }}</h3>
+                <p>{{ .text }}</p>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white" id="access" aria-labelledby="access-heading">
+        <div class="container">
+          <div class="section-heading">
+            <span>Access</span>
+            <h2 id="access-heading">Venue and Location</h2>
+          </div>
+          <div class="access-grid">
+            <div class="access-info">
+              <h3>{{ $workshop.venueShort }}</h3>
+              <dl>
+                <div>
+                  <dt>Room</dt>
+                  <dd>{{ $workshop.venueRoom }}</dd>
+                </div>
+                <div>
+                  <dt>Address</dt>
+                  <dd>{{ $workshop.address }}</dd>
+                </div>
+                {{ range $workshop.directions }}
+                  <div>
+                    <dt>{{ .label }}</dt>
+                    <dd>{{ .text }}</dd>
+                  </div>
+                {{ end }}
+              </dl>
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query={{ $workshop.mapQuery | urlquery }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+            </div>
+            <div class="map-frame">
+              <iframe
+                title="Map to {{ $workshop.venueShort }}"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q={{ $workshop.mapQuery | urlquery }}&output=embed">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {{ if or $workshop.organizers $workshop.supporters }}
+        <section class="section section-soft" id="organizers" aria-labelledby="organizers-heading">
+          <div class="container">
+            <div class="section-heading">
+              <span>Organizers</span>
+              <h2 id="organizers-heading">Organizing Committee</h2>
+            </div>
+            {{ with $workshop.organizers }}
+              <div class="organizer-grid">
+                {{ range . }}
+                  <article class="organizer-card">
+                    <span class="organizer-role">{{ .role }}</span>
+                    <h3>{{ .name }}</h3>
+                    <p>{{ .affiliation }}</p>
+                    {{ if .link }}
+                      <a class="card-link" href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .linkLabel | default "Profile" }} &rarr;</a>
+                    {{ end }}
+                  </article>
+                {{ end }}
+              </div>
+            {{ end }}
+            {{ with $workshop.supporters }}
+              <div class="supporters">
+                <h3>Supported by</h3>
+                <div class="supporter-list">
+                  {{ range . }}<span>{{ . }}</span>{{ end }}
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      <section class="section section-dark" id="contact" aria-labelledby="contact-heading">
+        <div class="container contact-layout">
+          <div>
+            <div class="section-heading section-heading-on-dark">
+              <span>Organizer</span>
+              <h2 id="contact-heading">{{ $workshop.organizer }}</h2>
+            </div>
+            <p class="contact-copy">
+              This workshop will provide an opportunity for students, early-career researchers, faculty members, and engineers interested in digital brain research, neuroimaging, computational neuroscience, health data science, and bioengineering to interact directly with leading international researchers.
+            </p>
+          </div>
+          <address class="contact-card">
+            <strong>{{ $workshop.contactName }}</strong>
+            <span>{{ $workshop.contactTitle }}</span>
+            <a href="mailto:{{ $workshop.contactEmail }}">{{ $workshop.contactEmail }}</a>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>{{ $workshop.title }}</p>
+        <a href="#overview">Back to top</a>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Back to top">&uarr;</button>
+
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  </body>
+</html>

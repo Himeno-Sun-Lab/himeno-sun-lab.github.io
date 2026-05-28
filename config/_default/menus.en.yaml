@@ -33,6 +33,10 @@ main:
     pageRef: "team"
     weight: 25
 
+  - name: "Workshop"
+    pageRef: "workshop"
+    weight: 30
+
   # - name: "Contact"
   #   pageRef: "contact"
   #   weight: 50
