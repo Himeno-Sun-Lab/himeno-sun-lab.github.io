@@ -16,7 +16,6 @@ replyByEmail: false
 
 mainSections:
   - "posts"
-  - "notice"
 
 disableImageOptimization: false
 disableTextInHeader: false
