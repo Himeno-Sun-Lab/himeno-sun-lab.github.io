@@ -55,10 +55,9 @@ showPagination: false
 - **Bojin HU**
 
 ### Co-supervising Student
-- **Siqi GAO** <kbd>[CUHK]</kbd>
+- **Siqi GAO** <kbd>CUHK</kbd>
 
 ### Exchange Students
-- **Disen Hu** <kbd>UESTC</kbd>
 - **Qiange Zhu** <kbd>XJTU</kbd>
 - **Xingpu Quan** <kbd>XJTU</kbd>
 
@@ -79,6 +78,7 @@ showPagination: false
 - **Shurun WANG**
 - **Yuxin CUI**
 - **Ying TAN**
+- **Disen Hu**
 
 <br>
 
