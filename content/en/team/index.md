@@ -36,7 +36,6 @@ showPagination: false
 - **Meng ZHOU**
 - **Ziqing CHANG**
 - **Minghao WANG**
-- **Pengyu XIANG**
 - **Haoxiang BAO**
 - **Jianing ZHANG**
 - **Xulin DENG**
