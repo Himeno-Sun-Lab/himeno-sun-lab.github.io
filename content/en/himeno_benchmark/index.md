@@ -16,10 +16,6 @@ We have upgraded the source code from “Himeno benchmark 98” to “himenoBMTx
 The Himeno Benchmark is made available under the LGPL2.0 or later.
 
 ## Download
-More information can be found [here](https://i.riken.jp/en/supercom/documents/himenobmt/).
-
-You can also download source code [here](https://i.riken.jp/en/supercom/documents/himenobmt/download/).
-
 If you have any questions for need for further assistance, please feel free to contact us.
 
 ### Source code & Executables(Win/Mac)
