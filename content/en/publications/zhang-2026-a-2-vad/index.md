@@ -1,19 +1,21 @@
 ---
-title: 'A2VAD: Attribute-augmented prompt learning for weakly supervised video anomaly
-  detection'
+title: 'A2VAD: Attribute-augmented prompt learning for weakly supervised video anomaly detection'
 authors:
-- Yu Zhang
-- Zhihua Yang
+- Chen Xu
+- Zheng Wang
 - Xing Xu
-- Dechao Chen
-- Peiyu Yang
-- Andrzej Cichocki
-- Heng Tao Shen
-- Liang Bao
+- Jingkuan Song
 - Zhe Sun
-date: '2026-01-01'
-publishDate: '2026-06-16T13:55:50.078759Z'
+- Andrzej Cichocki
+date: '2026-12-01'
+publishDate: '2026-10-07T16:00:00Z'
 publication_types:
 - article-journal
-publication: '*Engineering Applications of Artificial Intelligence*'
+publication: Pattern Recognition
+draft: false
+doi: 10.1016/j.patcog.2026.113987
 ---
+
+Chen Xu, Zheng Wang, Xing Xu, Jingkuan Song, **Zhe Sun**, Andrzej Cichocki (2026). **A2VAD: Attribute-augmented prompt learning for weakly supervised video anomaly detection**. *Pattern Recognition*, 180: 113987.
+
+[DOI: 10.1016/j.patcog.2026.113987](https://doi.org/10.1016/j.patcog.2026.113987) · [BibTeX](cite.bib)

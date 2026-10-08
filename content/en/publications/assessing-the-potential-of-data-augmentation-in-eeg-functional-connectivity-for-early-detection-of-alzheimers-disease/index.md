@@ -1,17 +1,22 @@
 ---
-title: Assessing the potential of data augmentation in EEG functional connectivity
-  for early detection of Alzheimer’s disease
+title: Assessing the Potential of Data Augmentation in EEG Functional Connectivity for Early Detection of Alzheimer’s Disease
 authors:
 - Hao Jia
 - Zihao Huang
-- Cesar F Caiafa
+- Cesar F. Caiafa
 - Feng Duan
 - Yu Zhang
 - Zhe Sun
 - Jordi Solé-Casals
 date: '2024-01-01'
-publishDate: '2025-05-30T06:37:54.803163Z'
+publishDate: '2026-10-07T16:00:00Z'
 publication_types:
 - article-journal
-publication: '*Cognitive Computation*'
+publication: Cognitive Computation
+draft: false
+doi: 10.1007/s12559-023-10188-7
 ---
+
+Hao Jia, Zihao Huang, Cesar F. Caiafa, Feng Duan, Yu Zhang, **Zhe Sun**, Jordi Solé-Casals (2024). **Assessing the Potential of Data Augmentation in EEG Functional Connectivity for Early Detection of Alzheimer’s Disease**. *Cognitive Computation*, 16(1): 229-242.
+
+[DOI: 10.1007/s12559-023-10188-7](https://doi.org/10.1007/s12559-023-10188-7) · [BibTeX](cite.bib)
