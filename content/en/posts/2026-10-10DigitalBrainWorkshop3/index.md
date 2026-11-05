@@ -6,6 +6,10 @@ authors:
   - Wangminghao
 tags: ['AMED', 'Workshop']
 ---
+{{< figure
+    src="feature.jpg"
+    alt="Participants"
+    >}}
 
 The 3rd Digital Brain Workshop was held on Hinode Campus of Juntendo University.
 Prof. Bryan Caron and Prof. Shunichi Amari were invited to give special speeches.
