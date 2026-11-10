@@ -56,9 +56,8 @@ showPagination: false
 ### Co-supervising Student
 - **Siqi GAO** <kbd>CUHK</kbd>
 
-### Exchange Students
-- **Qiange Zhu** <kbd>XJTU</kbd>
-- **Xingpu Quan** <kbd>XJTU</kbd>
+<!-- ### Exchange Students -->
+
 
 ## Alumni
 - **Yiqi LIU**
@@ -78,6 +77,8 @@ showPagination: false
 - **Yuxin CUI**
 - **Ying TAN**
 - **Disen Hu**
+- **Qiange Zhu**
+- **Xingpu Quan**
 
 <br>
 
