@@ -15,64 +15,64 @@ showPagination: false
     >}}
 
 ## Principal Investigators
-- **Ryutaro HIMENO**
-- **Zhe SUN**
+- **Ryutaro Himeno**
+- **Zhe Sun**
 
 ## Researchers
-- [Chao LI](https://chaoliatriken.github.io/) <kbd>[RIKEN AIP](https://qibinzhao.github.io/)</kbd>
-- **Xiaowei GU** <kbd>SUSTech</kbd>
-- [Binghua LI](https://xiaovhua.github.io/vhua.github.io/)
-- Wenjian DING
+- [Chao Li](https://chaoliatriken.github.io/) <kbd>[RIKEN AIP](https://qibinzhao.github.io/)</kbd>
+- **Xiaowei Gu** <kbd>SUSTech</kbd>
+- [Binghua Li](https://xiaovhua.github.io/vhua.github.io/)
+- Wenjian Ding
 
 ## Students
 ### Doctoral Students
-- **Tomonao ISHII**
-- **Jie MAO**
-- **Shibo WU**
-- **Tong LIANG**
-- **Yunyu HUANG**
-- **Quan YI**
-- **Jianyi WANG**
-- **Meng ZHOU**
-- **Ziqing CHANG**
-- **Minghao WANG**
-- **Haoxiang BAO**
-- **Jianing ZHANG**
-- **Xulin DENG**
+- **Tomonao Ishii**
+- **Jie Mao**
+- **Shibo Wu**
+- **Tong Liang**
+- **Yunyu Huang**
+- **Quan Yi**
+- **Jianyi Wang**
+- **Meng Zhou**
+- **Ziqing Chang**
+- **Minghao Wang**
+- **Haoxiang Bao**
+- **Jianing Zhang**
+- **Xulin Deng**
 
 ### Master Students
-- **Taikei ISHII**
-- **Yuchen CONG**
-- **Fujia WU**
-- **Shengxin WU**
-- **Bowen LIU**
-- **Haoran LIU**
-- **Aidi LIU**
-- **Zheng QU**
-- **Zhurui WANG**
-- **Mitsuo KAMIMURA**
-- **Bojin HU**
+- **Taikei Ishii**
+- **Yuchen Cong**
+- **Fujia Wu**
+- **Shengxin Wu**
+- **Bowen Liu**
+- **Haoran Liu**
+- **Aidi Liu**
+- **Zheng Qu**
+- **Zhurui Wang**
+- **Mitsuo Kamimura**
+- **Bojin Hu**
 
 ### Co-supervising Student
-- **Siqi GAO** <kbd>CUHK</kbd>
+- **Siqi Gao** <kbd>CUHK</kbd>
 
 ## Alumni
-- **Yiqi LIU**
-- **Yi YOU**
-- **Tianxiang LYU**
-- **Yu KONISHI**
+- **Yiqi Liu**
+- **Yi You**
+- **Tianxiang Lyu**
+- **Yu Konishi**
+- **Hana Nishimoto**
+- **Kai Suzuki**
+- **Xunyang Zhang**
+- **Chong Zu** 
+- **Shurun Wang**
+- **Yuxin Cui**
+- **Ying Tan**
 - **Mireia Santamaria**
-- **Boren BAI**
-- **Jingjing ZHANG**
-- **Haoran LI**
+- **Boren Bai**
+- **Jingjing Zhang**
+- **Haoran Li**
 - **Judith Urbina Cordoba**
-- **Hana NISHIMOTO**
-- **Kai SUZUKI**
-- **Xunyang ZHANG**
-- **Chong ZU**
-- **Shurun WANG**
-- **Yuxin CUI**
-- **Ying TAN**
 - **Disen Hu**
 - **Qiange Zhu**
 - **Xingpu Quan**
