@@ -56,9 +56,6 @@ showPagination: false
 ### Co-supervising Student
 - **Siqi GAO** <kbd>CUHK</kbd>
 
-<!-- ### Exchange Students -->
-
-
 ## Alumni
 - **Yiqi LIU**
 - **Yi YOU**
